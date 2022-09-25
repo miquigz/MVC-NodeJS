@@ -1,8 +1,8 @@
 # MVC in NodeJS
 
-### Get dependencies:
+### Get dependencies (Nodemon & Express):
 ``
-    npm init
+    npm install
 ``
 
 ### Run MVC project:
@@ -11,13 +11,13 @@
 ``
 
 # CRUD:
-### Routes  GET:
+### GET  Routes:
 * endpoint/get/example.
-### Routes  POST:
+### POST  Routes:
 * endpoint/post/example.
-### Routes  PUT:
+### PUT  Routes:
 * endpoint/put/example.
-### Routes  DELETE:
+###  DELETE  Routes:
 * endpoint/delete/example.
 
 ### Reference recourses:
