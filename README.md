@@ -9,18 +9,37 @@
 ``
     npm run dev
 ``
-
 # CRUD:
+* Port8080:   localhost:8080/      
 ### GET  Routes:
-* endpoint/get/example.
+``
+/
+``
+```
+/api/productos
+/api/productos/id
+/info
+/visits
+/reset
+
+```
 ### POST  Routes:
-* endpoint/post/example.
+``
+/
+``
+```
+/api/productos
+```
 ### PUT  Routes:
-* endpoint/put/example.
+```
+/api/productos/id
+```
 ###  DELETE  Routes:
-* endpoint/delete/example.
+```
+/api/productos/id
+```
 
 ### Reference recourses:
-    _ref\Web API Design.pdf
+* _ref\Web API Design.pdf
 
 #### Made in the NodeJS's bootcamp course (#Digitalers by Telecom & EducacionIT)

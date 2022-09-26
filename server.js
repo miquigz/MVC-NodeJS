@@ -26,8 +26,3 @@ app.use('/', routerNoMatch);
 const PORT = 8080
 const server = app.listen(PORT, () => console.log(`Servidor express escuchando en el puerto ${PORT}`))
 server.on('error', error => console.log(`Error en el servidor express: ${error.message}`))
-
-
-
-// 1:20 video profee
-//no anda api/productos, ver dsp 
