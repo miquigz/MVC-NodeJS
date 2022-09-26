@@ -2,7 +2,7 @@
 let {products, idProduct} = require('../model/products');
 
 const getProducts = (req, res) => {
-    let id = req.params.id
+    let id = req.params.id;
     //console.log(id)
     if(id) { //if ID exist: return product, else: empty object.
         let product = products.find(product => product.id == id) || {} //ternario, return: empty object OR product.
